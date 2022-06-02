@@ -38,7 +38,9 @@ function App() {
   return (
     <>
       <section className="container">
-        <h3>color generator</h3>
+        <h3>
+          color <span>palette</span> generator
+        </h3>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
@@ -54,6 +56,7 @@ function App() {
             Randomize
           </button>
         </form>
+        <p className="text">Click on Color to copy it to clipboard.</p>
       </section>
       <section className="colors">
         {list.map((color, index) => {

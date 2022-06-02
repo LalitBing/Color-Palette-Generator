@@ -173,14 +173,22 @@ input {
 }
 
 .btn:hover {
-  background: #0ad1a6;
-  color: #0a4030;
+  background: var(--clr-red-light);
+  color: var(--clr-white);
   transition: var(--transition);
 }
 
 .randomize {
   margin-left: 1rem;
   border-radius: 0.35rem;
+}
+
+.text {
+  margin: 1rem;
+}
+
+span {
+  color: var(--clr-red-light);
 }
 
 @media screen and (max-width: 576px) {
