@@ -52,10 +52,10 @@ function App() {
           <button className="btn" type="submit">
             submit
           </button>
-          <button className="btn randomize" onClick={randomizeHandler}>
-            Randomize
-          </button>
         </form>
+        <button className="btn randomize" onClick={randomizeHandler}>
+          Randomize
+        </button>
         <p className="text">Click on Color to copy it to clipboard.</p>
       </section>
       <section className="colors">
